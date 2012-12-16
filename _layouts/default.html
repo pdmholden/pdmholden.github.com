@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>{{ page.title }}</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Paul Holden" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" type="text/css" />
+    <style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    </style>
+</head>
+<body>
+    <div class="row-fluid">
+        <div class="span3 offset1 well pagination-right">
+            <h2>{{ page.title }}</h2>
+            <ul class="unstyled">
+            <li><a href="http://paulzaishijie.posterous.com/">郝博周游列国</a></li>
+            <li><a href="http://www.linkedin.com/pub/paul-holden/1/b60/8">LinkedIn</a></li>
+            <li><a href="https://github.com/pdmholden">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="span7">
+            {{ content }}
+        </div>
+    </div>
+</body>
+</html>
